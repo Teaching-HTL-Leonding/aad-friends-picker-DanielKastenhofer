@@ -8,19 +8,19 @@
     <p>Currently logged in as <b>{{ profile.displayName }}</b></p>
     <button (click)="logout()" [hidden]="!loggedIn">Logout</button>
     <br>
-    <h2>Search for people 👀</h2>
+    <h2>Search for people</h2>
     <input placeholder="Name" type="text" [(ngModel)]="userSearchFilter" (ngModelChange)="updateUsers(userSearchFilter)">
     
     <div>
         <ul>
             <li *ngFor="let u of users">
-                <button (click)="addFriend(u!)" *ngIf="!isFriend(u!)">Add</button>
+                <button (click)="addFriend(u!)" *ngIf="!isFriend(u!)">Add ✅</button>
                 {{ u.displayName }} ({{ u.userPrincipalName }})
             </li> 
         </ul>
     </div>
     <br>
-    <h2>My Friends ✨</h2>
+    <h2>My Friends</h2>
     <div>
         <ul>
             <li *ngFor="let u of friends">
