@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MJek9+2c4eemaX98tANW1G/tb9kFGT8vhaCtMyOcutkD8Bcu6rEagNJFz9rbT/71xW1Vl09JJR6x9s8vdhg/AQ==",
+  "dgSpecHash": "p7pve8+hp0wL2xoSAHbNiQM1McYG0G/92bI3ZgOk8UOgMxtNJQZhiAWzAbtnHwe1ztrLpoyMnyUPxliqHruL4w==",
   "success": true,
-  "projectFilePath": "E:\\HTLLeonding\\4.Klasse\\C#\\AadFriendsPicker\\AadFriendsPickerBackend\\AadFriendsPickerAPI\\AadFriendsPickerAPI\\AadFriendsPickerAPI.csproj",
+  "projectFilePath": "E:\\HTLLeonding\\4.Klasse\\C#\\aad-friends-picker-DanielKastenhofer\\AadFriendsPickerAPI\\AadFriendsPickerAPI\\AadFriendsPickerAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Daniel\\.nuget\\packages\\azure.core\\1.4.1\\azure.core.1.4.1.nupkg.sha512",
     "C:\\Users\\Daniel\\.nuget\\packages\\azure.identity\\1.2.3\\azure.identity.1.2.3.nupkg.sha512",

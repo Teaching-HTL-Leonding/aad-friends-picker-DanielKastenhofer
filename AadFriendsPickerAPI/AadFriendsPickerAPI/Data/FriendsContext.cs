@@ -9,20 +9,20 @@ namespace AadFriendsPickerAPI.Data
     public class FriendsContext : DbContext
     {
 
-        public DbSet<Friend> Friends { get; set; }
+        public DbSet<FriendShip> FriendShips { get; set; }
         public FriendsContext(DbContextOptions<FriendsContext> options)
             :base(options)
         { }
 
-        public async Task<Friend> AddFriend(Friend newFriend)
+        public async Task<FriendShip> AddFriend(FriendShip newFriend)
         {
-            Friends.Add(newFriend);
+            FriendShips.Add(newFriend);
             await SaveChangesAsync();
             return newFriend;
         }
-        public async Task RemoveFriend(Friend friendToRemove)
+        public async Task RemoveFriend(FriendShip friendToRemove)
         {
-            Friends.Remove(friendToRemove);
+            FriendShips.Remove(friendToRemove);
             await SaveChangesAsync();
         }
 

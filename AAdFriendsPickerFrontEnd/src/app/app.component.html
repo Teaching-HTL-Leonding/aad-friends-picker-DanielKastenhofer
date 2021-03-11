@@ -1,34 +1,32 @@
-  
-<h1>Hello</h1>
+<h1>AAD Friends Picker</h1>
 
-<button (click)="login()" [hidden]="loggedIn">Login</button>
-<button (click)="logout()" [hidden]="!loggedIn">Logout</button>
-
+<div [hidden]="loggedIn">
+    <p>You are currently not logged in.</p>
+    <button (click)="login()" [hidden]="loggedIn">Login</button>
+</div>
 <div *ngIf="loggedIn">
-
-    <h2>Get Profile</h2>
-
-    <button (click)="getProfile()">Profile</button>
-    <div *ngIf="profile">
-        <p>Display name: {{ profile.displayName }}</p>
-    </div>
-
-    <h2>Get Friends (custom API)</h2>
-
-    <button (click)="getFriends()">Friends</button>
-    <div *ngIf="friends">
+    <p>Currently logged in as <b>{{ profile.displayName }}</b></p>
+    <button (click)="logout()" [hidden]="!loggedIn">Logout</button>
+    <br>
+    <h2>Search for people 👀</h2>
+    <input placeholder="Name" type="text" [(ngModel)]="userSearchFilter" (ngModelChange)="updateUsers(userSearchFilter)">
+    
+    <div>
         <ul>
-            <li *ngFor="let o of friends">{{ o.id }}: {{ o.customer }} ({{ o.revenue | number }})</li>
+            <li *ngFor="let u of users">
+                <button (click)="addFriend(u!)" *ngIf="!isFriend(u!)">Add</button>
+                {{ u.displayName }} ({{ u.userPrincipalName }})
+            </li> 
         </ul>
     </div>
-
-    <h2>Get Users (MS Graph)</h2>
-
-    <input type="text" [(ngModel)]="userNameFilter" />
-    <button (click)="getUsers()">Users</button>
-    <div *ngIf="users">
+    <br>
+    <h2>My Friends ✨</h2>
+    <div>
         <ul>
-            <li *ngFor="let u of users">{{ u.displayName }} ({{ u.userPrincipalName }})</li>
+            <li *ngFor="let u of friends">
+                <button (click)="removeFriend(u!)">❌</button>
+                {{ u?.displayName }} ({{ u?.userPrincipalName }})
+            </li>
         </ul>
     </div>
 </div>

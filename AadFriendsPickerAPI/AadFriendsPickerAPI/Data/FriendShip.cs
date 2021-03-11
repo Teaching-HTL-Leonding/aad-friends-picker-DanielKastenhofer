@@ -5,9 +5,10 @@ using System.Threading.Tasks;
 
 namespace AadFriendsPickerAPI.Data
 {
-    public class Friend
+    public class FriendShip
     {
         public int ID { get; set; }
-        public int AAD_ID { get; set; }
+        public string FirstUserId { get; set; }
+        public string SecondUserId { get; set; }
     }
 }

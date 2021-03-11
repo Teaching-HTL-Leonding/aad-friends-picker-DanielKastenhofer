@@ -31,8 +31,8 @@ export function MSALInterceptorConfigFactory(): MsalInterceptorConfiguration {
   ]);
 
   protectedResourceMap.set(environment.customApi, [
-    'api://14f9a758-cdba-47ba-8178-c0d54de0ab88/read',
-    'api://14f9a758-cdba-47ba-8178-c0d54de0ab88/write'
+    'api://c5ddc9d4-e76a-4e77-a5bb-be498f26a2ff/read',
+    'api://c5ddc9d4-e76a-4e77-a5bb-be498f26a2ff/write'
   ]);
 
   return {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\HTLLeonding\\4.Klasse\\C#\\AadFriendsPicker\\AadFriendsPickerBackend\\AadFriendsPickerAPI\\AadFriendsPickerAPI\\AadFriendsPickerAPI.csproj": {}
+    "E:\\HTLLeonding\\4.Klasse\\C#\\aad-friends-picker-DanielKastenhofer\\AadFriendsPickerAPI\\AadFriendsPickerAPI\\AadFriendsPickerAPI.csproj": {}
   },
   "projects": {
-    "E:\\HTLLeonding\\4.Klasse\\C#\\AadFriendsPicker\\AadFriendsPickerBackend\\AadFriendsPickerAPI\\AadFriendsPickerAPI\\AadFriendsPickerAPI.csproj": {
+    "E:\\HTLLeonding\\4.Klasse\\C#\\aad-friends-picker-DanielKastenhofer\\AadFriendsPickerAPI\\AadFriendsPickerAPI\\AadFriendsPickerAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\HTLLeonding\\4.Klasse\\C#\\AadFriendsPicker\\AadFriendsPickerBackend\\AadFriendsPickerAPI\\AadFriendsPickerAPI\\AadFriendsPickerAPI.csproj",
+        "projectUniqueName": "E:\\HTLLeonding\\4.Klasse\\C#\\aad-friends-picker-DanielKastenhofer\\AadFriendsPickerAPI\\AadFriendsPickerAPI\\AadFriendsPickerAPI.csproj",
         "projectName": "AadFriendsPickerAPI",
-        "projectPath": "E:\\HTLLeonding\\4.Klasse\\C#\\AadFriendsPicker\\AadFriendsPickerBackend\\AadFriendsPickerAPI\\AadFriendsPickerAPI\\AadFriendsPickerAPI.csproj",
+        "projectPath": "E:\\HTLLeonding\\4.Klasse\\C#\\aad-friends-picker-DanielKastenhofer\\AadFriendsPickerAPI\\AadFriendsPickerAPI\\AadFriendsPickerAPI.csproj",
         "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "E:\\HTLLeonding\\4.Klasse\\C#\\AadFriendsPicker\\AadFriendsPickerBackend\\AadFriendsPickerAPI\\AadFriendsPickerAPI\\obj\\",
+        "outputPath": "E:\\HTLLeonding\\4.Klasse\\C#\\aad-friends-picker-DanielKastenhofer\\AadFriendsPickerAPI\\AadFriendsPickerAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
